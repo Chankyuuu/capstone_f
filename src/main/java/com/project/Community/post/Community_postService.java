@@ -47,4 +47,12 @@ public class Community_postService {
     public void delete(Community_post Community_post) {
         this.community_postRepository.delete(Community_post);
     }
+
+    public List<Community_post> search(String keyword) {//
+        return community_postRepository.findBySubjectContainingOrContentContaining(keyword, keyword);
+    }
+
+    public List<Community_post> searchSubject(String keyword) {//
+        return community_postRepository.findBySubjectContaining(keyword);
+    }
 }
