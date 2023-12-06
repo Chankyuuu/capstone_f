@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.project.ProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-05T15:51:37" hostname="찬규_서피스9" time="0.643">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.project.project.ProjectApplicationTests" time="0.643"/>
+  <system-out><![CDATA[00:51:30.405 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.project.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:51:30.531 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.project.ProjectApplication for test class com.project.project.ProjectApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-12-06T00:51:31.108+09:00  INFO 20216 --- [    Test worker] c.p.project.ProjectApplicationTests      : Starting ProjectApplicationTests using Java 21 with PID 20216 (started by limcg in C:\Users\limcg\Desktop\project-kim)
+2023-12-06T00:51:31.110+09:00  INFO 20216 --- [    Test worker] c.p.project.ProjectApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-12-06T00:51:32.429+09:00  INFO 20216 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-06T00:51:32.545+09:00  INFO 20216 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 4 JPA repository interfaces.
+2023-12-06T00:51:33.232+09:00  INFO 20216 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-06T00:51:33.391+09:00  INFO 20216 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-12-06T00:51:33.395+09:00  INFO 20216 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-12-06T00:51:33.781+09:00  INFO 20216 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-06T00:51:33.827+09:00  INFO 20216 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-06T00:51:34.425+09:00  INFO 20216 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1efcba00
+2023-12-06T00:51:34.427+09:00  INFO 20216 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-06T00:51:35.645+09:00  INFO 20216 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    alter table bug_location 
+       add column bug_latitude float(53)
+2023-12-06T00:51:35.900+09:00  INFO 20216 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-06T00:51:36.673+09:00  WARN 20216 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-06T00:51:37.340+09:00  INFO 20216 --- [    Test worker] c.p.project.ProjectApplicationTests      : Started ProjectApplicationTests in 6.555 seconds (process running for 8.116)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\limcg\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.9\dfb8707031008535048bad2b69735f46d0b6c5e5\byte-buddy-agent-1.14.9.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
