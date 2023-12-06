@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/community_comment")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://ec2-52-79-51-209.ap-northeast-2.compute.amazonaws.com:8080")
 @RestController
 public class Community_commentController {
     
