@@ -18,7 +18,7 @@ public class FrontToAIController {
 
     private final FrontToAIService FrontToAI_service;
 
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin(origins = "https://kayas1.github.io/ai-insect-inspection")
     @PostMapping("diagnosis")
     public Map<String,Object> handleInput(@RequestPart("imageFile") MultipartFile file, @RequestParam("agricultureType") Integer agri_id, @RequestParam("lat") Double lat, @RequestParam("lng") Double lng) throws IOException
     // lat : 위도, lng : 경도

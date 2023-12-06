@@ -32,7 +32,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://ec2-52-79-51-209.ap-northeast-2.compute.amazonaws.com:8080")
+@CrossOrigin(origins = "https://kayas1.github.io/ai-insect-inspection")
 @RestController
 public class Community_postController {
 
