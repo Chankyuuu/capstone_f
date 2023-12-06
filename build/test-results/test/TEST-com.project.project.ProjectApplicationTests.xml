@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.project.ProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-06T08:12:41" hostname="찬규_서피스9" time="0.54">
+<testsuite name="com.project.project.ProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-06T16:06:26" hostname="찬규_서피스9" time="0.602">
   <properties/>
-  <testcase name="contextLoads()" classname="com.project.project.ProjectApplicationTests" time="0.54"/>
-  <system-out><![CDATA[17:12:35.401 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.project.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:12:35.516 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.project.ProjectApplication for test class com.project.project.ProjectApplicationTests
+  <testcase name="contextLoads()" classname="com.project.project.ProjectApplicationTests" time="0.602"/>
+  <system-out><![CDATA[01:06:20.399 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.project.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:06:20.516 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.project.ProjectApplication for test class com.project.project.ProjectApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,21 +13,21 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.5)
 
-2023-12-06T17:12:36.046+09:00  INFO 10964 --- [    Test worker] c.p.project.ProjectApplicationTests      : Starting ProjectApplicationTests using Java 21 with PID 10964 (started by limcg in C:\Users\limcg\Desktop\project-kim)
-2023-12-06T17:12:36.048+09:00  INFO 10964 --- [    Test worker] c.p.project.ProjectApplicationTests      : No active profile set, falling back to 1 default profile: "default"
-2023-12-06T17:12:37.093+09:00  INFO 10964 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-12-06T17:12:37.171+09:00  INFO 10964 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
-2023-12-06T17:12:37.734+09:00  INFO 10964 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-12-06T17:12:37.862+09:00  INFO 10964 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
-2023-12-06T17:12:37.866+09:00  INFO 10964 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2023-12-06T17:12:38.209+09:00  INFO 10964 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-12-06T17:12:38.253+09:00  INFO 10964 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-12-06T17:12:38.753+09:00  INFO 10964 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3578a45b
-2023-12-06T17:12:38.756+09:00  INFO 10964 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-12-06T17:12:39.812+09:00  INFO 10964 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2023-12-06T17:12:39.912+09:00  INFO 10964 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-12-06T17:12:40.586+09:00  WARN 10964 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-12-06T17:12:41.099+09:00  INFO 10964 --- [    Test worker] c.p.project.ProjectApplicationTests      : Started ProjectApplicationTests in 5.349 seconds (process running for 6.69)
+2023-12-07T01:06:20.991+09:00  INFO 24744 --- [    Test worker] c.p.project.ProjectApplicationTests      : Starting ProjectApplicationTests using Java 21 with PID 24744 (started by limcg in C:\Users\limcg\Desktop\project-kim)
+2023-12-07T01:06:20.993+09:00  INFO 24744 --- [    Test worker] c.p.project.ProjectApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-12-07T01:06:22.025+09:00  INFO 24744 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-07T01:06:22.106+09:00  INFO 24744 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 4 JPA repository interfaces.
+2023-12-07T01:06:22.917+09:00  INFO 24744 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-07T01:06:23.039+09:00  INFO 24744 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-12-07T01:06:23.042+09:00  INFO 24744 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-12-07T01:06:23.389+09:00  INFO 24744 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-07T01:06:23.431+09:00  INFO 24744 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-07T01:06:23.938+09:00  INFO 24744 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3578a45b
+2023-12-07T01:06:23.940+09:00  INFO 24744 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-07T01:06:25.052+09:00  INFO 24744 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-07T01:06:25.154+09:00  INFO 24744 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-07T01:06:25.919+09:00  WARN 24744 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-07T01:06:26.522+09:00  INFO 24744 --- [    Test worker] c.p.project.ProjectApplicationTests      : Started ProjectApplicationTests in 5.805 seconds (process running for 7.313)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\limcg\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.9\dfb8707031008535048bad2b69735f46d0b6c5e5\byte-buddy-agent-1.14.9.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
