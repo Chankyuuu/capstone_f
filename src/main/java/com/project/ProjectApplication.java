@@ -19,7 +19,7 @@ public class ProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectApplication.class, args);
 	}
-
+/* 
 	@Bean
     public ServletWebServerFactory servletContainer() {
         // Enable SSL Trafic
@@ -47,5 +47,5 @@ public class ProjectApplication {
         connector.setSecure(false);
         connector.setRedirectPort(443);
         return connector;
-    }
+    }*/
 }
